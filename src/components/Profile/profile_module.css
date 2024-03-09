@@ -1,0 +1,91 @@
+.profile {
+    border: solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 300px;
+    padding-top: 20px;
+    margin-top: 50px;
+  
+    margin: 0 auto;
+  
+    margin-bottom: 20px;
+  
+   
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+  
+    gap: 5px;
+  
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    border-radius: 100px;
+    background-color: rgb(106, 193, 216);
+  
+    margin-bottom: 8px;
+  }
+  
+  .userName {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 19px;
+  
+    color: black;
+  }
+  
+  .tag,
+  .location {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+  
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .statistic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+  
+    padding: 10px 0;
+
+
+  }
+  
+  .list {
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+   
+  }
+  
+  .statTitle {
+    margin-bottom: 5px;
+  }
+  
+  .statValue {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+  }
